@@ -1,4 +1,4 @@
-# foodwarriorsRecipeApp
+# Food Warriors Recipe App
 
 Are you hungry?
 Don't know what to cook?
