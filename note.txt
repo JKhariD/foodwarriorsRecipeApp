@@ -1,1 +1,11 @@
 # Handy post for things:
+
+- [x][Heggy] 1 JS lib feature: cornify(https://www.cornify.com/extras) 
+- [ ] [ Jared ] - Trello board (https://trello.com/b/ultdy0tY/template-scrum-with-trello) OR GitHub board (https://docs.github.com/en/github/managing-your-work-on-github/about-project-boards)
+- [ ] [ Ted ] Logo for our app
+- [ ] [ Teila ] bored api (https://www.boredapi.com/)
+
+## Links:
+  - Our app: https://github.com/JKhariD/foodwarriorsRecipeApp
+  - List of Pub api: https://github.com/public-apis/public-apis#food--drink
+  - Project Tracker: https://github.com/JKhariD/foodwarriorsRecipeApp/projects/1
