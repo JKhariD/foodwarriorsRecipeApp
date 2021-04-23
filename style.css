@@ -2,14 +2,14 @@
   box-sizing: border-box;
 }
 
-.food-recipe, .navbar {
+/* .food-recipe, .navbar {
   border: 2px solid crimson;
-}
+} */
 
-.navbar-links {
+/* .navbar-links {
   display: flex;
   align-items: center;
-}
+} */
 
 .navs {
   flex-direction: row;
@@ -32,4 +32,8 @@
 
 .main-body {
   padding-top: 90px;
+}
+
+.left-bar {
+  border-left: 1px solid #c9c5c5;
 }
