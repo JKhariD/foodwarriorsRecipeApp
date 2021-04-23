@@ -14,3 +14,4 @@
   - responsive page grid: https://getbootstrap.com/docs/4.3/layout/grid/#grid-options
   - navbar: https://getbootstrap.com/docs/4.3/components/navbar/
   - bootstrap cdn: https://getbootstrap.com/docs/4.3/getting-started/introduction/
+  - footer: https://mdbootstrap.com/docs/standard/navigation/footer/
