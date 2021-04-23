@@ -1,4 +1,4 @@
-# **Food Wa
+# **Food Warriors
 Don't know what to cook?
 rriors Recipe App**
 
@@ -10,7 +10,7 @@ Use this app to enter the items you have in your kitchen and genrate a new recip
 
 Developed by:
 
-Heggie
+Heggy 
 Ted
 Jared
 Teila
