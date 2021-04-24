@@ -45,3 +45,12 @@
 .about-us {
   padding-right: 0px;
 }
+
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
