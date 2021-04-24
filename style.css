@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+/* .food-recipe, .navbar {
+  border: 2px solid crimson;
+} */
+
+/* .navbar-links {
+  display: flex;
+  align-items: center;
+} */
+
+.navs {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navs li {
+  margin-left: 12px;
+}
+
+.site-top-bar {
+  background-color: antiquewhite;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.main-body {
+  padding-top: 90px;
+}
+
+.left-bar {
+  border-left: 1px solid #c9c5c5;
+}
