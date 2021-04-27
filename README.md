@@ -16,9 +16,6 @@ Use this app to enter the items you have in your kitchen and genrate a new recip
 ### JS library used:
 * cornify(https://www.cornify.com/extras)
 
-
-
-
 ![chew](https://media.giphy.com/media/XbLeWvIwOcd2g/giphy.gif "Grubhub")
 <hr>
 

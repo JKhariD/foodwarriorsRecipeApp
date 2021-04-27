@@ -54,9 +54,29 @@
       
 
       <div class="container-fluid main-body">
-      <button id="button">Button</button>
-        <div id="cards" class="row">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <form id="search-recipe-form">
+                <div class="input-group input-group-lg">
+                  <input class="form-control search-bar" id="recipe-search-input" name="recipeSearchInput" placeholder="Enter food item.  ex: broccoli">
+                  <button class="btn btn-primary input-group-btn" id="find-recipe-btn" type="submit">Find Recipe</button>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
 
+      <div class="container">
+        <div id="" class="row">
+          <div class="col" id="recipe-result">
+            <!-- RECIPES SHOW UP HERE! -->
+          </div>
+        </div>
+      </div>
+
+
+        <div id="cards" class="row">
           <div class="col-12 col-md-4 left-bar">
             <div class="text-center">
               <div class="display-4">Random Activity</div>
