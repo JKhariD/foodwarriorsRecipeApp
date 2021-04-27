@@ -31,9 +31,50 @@
 }
 
 .main-body {
-  padding-top: 90px;
+  padding-top: 300px;
 }
 
 .left-bar {
   border-left: 1px solid #c9c5c5;
+}
+
+.refresh-btn {
+  z-index: 100;
+}
+
+.about-us {
+  padding-right: 0px;
+}
+
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recipe-flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#recipe-result {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footer {
+  background-color: #3A527A;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 3000px;
+  text-align: center;
 }

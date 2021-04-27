@@ -15,3 +15,9 @@
   - navbar: https://getbootstrap.com/docs/4.3/components/navbar/
   - bootstrap cdn: https://getbootstrap.com/docs/4.3/getting-started/introduction/
   - footer: https://mdbootstrap.com/docs/standard/navigation/footer/
+
+## api:
+### Edamam: 
+* base Url: https://api.edamam.com/search
+
+    * param: q, count (limit to 6)
