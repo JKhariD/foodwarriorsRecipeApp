@@ -78,3 +78,7 @@
   padding: 3000px;
   text-align: center;
 }
+
+#random-result {
+  justify-content: space-around;
+}

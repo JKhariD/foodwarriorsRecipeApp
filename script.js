@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(resp => {
       // recipeResult.innerHTML = renderCard(resp.data.hits);
       renderRecipeCard(resp.data.hits);
+      document.getElementById("recipe-search-input").value = "";
     })
     .catch(err => console.error(err));
   });
