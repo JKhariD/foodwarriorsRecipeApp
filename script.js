@@ -2,7 +2,7 @@
 const renderCard = data => {
   // console.log('data called from renderCard!', data);
   const cards = document.getElementById('cards');
-  cons someArr = data.map( item => {
+  const someArr = data.map(item => {
     cards.innerHTML = `
       <div class="movie">
         <div class="card" style="width: 18rem;">
