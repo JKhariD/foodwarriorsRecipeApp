@@ -71,3 +71,10 @@
   align-items: center;
   width: 100%;
 }
+
+.footer {
+  background-color: #3A527A;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 3000px;
+  text-align: center;
+}
