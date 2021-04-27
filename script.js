@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
   randomBtn.addEventListener('click', () => {
     axios.get('https://www.boredapi.com/api/activity/')
     .then(resp => {
-      console.log(resp);
+      renderActivityCard(resp.data);
     })
     .catch(err => console.error(err));
   });
@@ -62,16 +62,14 @@ const renderActivityCard = data => {
   // console.log('data called from renderCard!', data);
   const cards = document.getElementById('random-result');
   cards.innerHTML = "";
-    card.innerHTML = `
-      <div class="recipe row">
-        <div class="card" style="width: 18rem;">
-          <img src="${currentItem.image}" class="card-img-top" alt="${currentItem.label}">
-          <div class="card-body">
-            <h5 class="card-title">${currentItem.label}</h5>
-          </div>
-        </div>
+  cards.innerHTML = `
+    <div class="row">
+      <div class="card" style="width: 18rem;">
+        <h3 class="card-title">Activity:${data.activity}</h3>
+        <div>Activity Type: ${data.type}</div>
       </div>
-    `;
+    </div>
+  `;
 }
 // https://www.boredapi.com/api/activity/
 
