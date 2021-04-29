@@ -2,14 +2,14 @@
   box-sizing: border-box;
 }
 
-/* .food-recipe, .navbar {
-  border: 2px solid crimson;
-} */
+html {
+  position: relative;
+  min-height: 100%;
+}
 
-/* .navbar-links {
-  display: flex;
-  align-items: center;
-} */
+body {
+  margin-bottom: 60px;
+}
 
 .navs {
   flex-direction: row;
@@ -32,6 +32,11 @@
 
 .main-body {
   padding-top: 122px;
+  /* sticky footer part 2/3 https://css-tricks.com/couple-takes-sticky-footer/ */
+  min-height: 100%;
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
 }
 
 .left-bar {
@@ -74,19 +79,41 @@
   margin-top: 20px;
 }
 
-footer {
-  background-color: #3A527A;
+.footer {
+
   color: rgba(255, 255, 255, 0.7);
-  padding: 30px;
+
   text-align: center;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
 }
+
+.footer-container {
+  background-color: #3a527a;
+}
+.fab {
+  margin-right: 7px;
+}
+
+/* sticky footer part 3/3 https://css-tricks.com/couple-takes-sticky-footer/ */
+/* .footer, .push {
+  height: 90px;
+} */
 
 #random-result {
   justify-content: space-around;
 }
 
-/* @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+/* on screen that are 615px or less, set the top nav bar */
+@media only screen and (max-width: 615px) {
+  .site-top-bar {
+    max-height: 100px;
   }
-} */
+  .nav-link {
+    padding: 0px;
+  }
+}
