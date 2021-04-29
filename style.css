@@ -74,10 +74,10 @@
   margin-top: 20px;
 }
 
-.footer {
+footer {
   background-color: #3A527A;
   color: rgba(255, 255, 255, 0.7);
-  padding: 3000px;
+  padding: 30px;
   text-align: center;
 }
 

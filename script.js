@@ -47,7 +47,7 @@ const renderRecipeCard = data => {
     const card = document.createElement('div');
     card.className = 'recipe-flex-row';
     card.innerHTML = `
-      <div class="recipe row">
+      <div class="movie">
         <div class="card" style="width: 18rem;">
           <img src="${currentItem.image}" class="card-img-top" alt="${currentItem.label}">
           <div class="card-body">
