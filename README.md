@@ -8,6 +8,9 @@ Use this app to enter the items you have in your kitchen and genrate a new recip
 
 ## Features:
 
+### Tools used:
+* HTML | CSS | Bootstrap | API | JS Library 
+
 ### api used:
 * [edamam](https://developer.edamam.com/edamam-recipe-api-demo)
 
