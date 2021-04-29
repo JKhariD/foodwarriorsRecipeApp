@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // runs when user click find recipe btn (btn type submit)
   formRecipe.addEventListener('submit', e => {
+    recipeResult.innerHTML = `<img src="./asset/loading.gif">`;
     // prevent default form pg refresh after submit 
     e.preventDefault();
     // grab user input from item input
