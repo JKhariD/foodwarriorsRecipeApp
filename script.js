@@ -38,16 +38,15 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 const renderRecipeCard = data => {
-  // console.log('data called from renderCard!', data);
-  const cards = document.getElementById('recipe-result');
-  cards.innerHTML = "";
+  const recipeResult = document.getElementById('recipe-result');
+  recipeResult.innerHTML = "";
   const someArr = data.map(item => {
     // console.log('item?', item);
     const currentItem = item.recipe;
     const card = document.createElement('div');
     card.className = 'recipe-flex-row';
     card.innerHTML = `
-      <div class="movie">
+      <div class="recipe">
         <div class="card" style="width: 18rem;">
           <img src="${currentItem.image}" class="card-img-top" alt="${currentItem.label}">
           <div class="card-body">
@@ -56,15 +55,15 @@ const renderRecipeCard = data => {
         </div>
       </div>
     `;
-    cards.appendChild(card);
+    recipeResult.appendChild(card);
   });
 }
 
 const renderActivityCard = data => {
   // console.log('data called from renderCard!', data);
-  const cards = document.getElementById('random-result');
-  cards.innerHTML = "";
-  cards.innerHTML = `
+  const randomResult = document.getElementById('random-result');
+  randomResult.innerHTML = "";
+  randomResult.innerHTML = `
     <div class="row">
       <div class="card" style="width: 18rem;">
         <h3 class="card-title">Activity:${data.activity}</h3>

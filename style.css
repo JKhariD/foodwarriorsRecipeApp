@@ -67,7 +67,7 @@
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   width: 100%;
   overflow: hidden;
