@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // runs when user click find recipe btn (btn type submit)
   formRecipe.addEventListener('submit', e => {
+    recipeResult.innerHTML = `<img src="./asset/loading.gif">`;
     // prevent default form pg refresh after submit 
     e.preventDefault();
     // grab user input from item input
@@ -21,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(resp => {
       // recipeResult.innerHTML = renderCard(resp.data.hits);
       renderRecipeCard(resp.data.hits);
+      document.getElementById("recipe-search-input").value = "";
     })
     .catch(err => console.error(err));
   });
@@ -29,23 +31,22 @@ document.addEventListener("DOMContentLoaded", () => {
   randomBtn.addEventListener('click', () => {
     axios.get('https://www.boredapi.com/api/activity/')
     .then(resp => {
-      console.log(resp);
+      renderActivityCard(resp.data);
     })
     .catch(err => console.error(err));
   });
 })
 
 const renderRecipeCard = data => {
-  // console.log('data called from renderCard!', data);
-  const cards = document.getElementById('recipe-result');
-  cards.innerHTML = "";
+  const recipeResult = document.getElementById('recipe-result');
+  recipeResult.innerHTML = "";
   const someArr = data.map(item => {
     // console.log('item?', item);
     const currentItem = item.recipe;
     const card = document.createElement('div');
     card.className = 'recipe-flex-row';
     card.innerHTML = `
-      <div class="recipe row">
+      <div class="recipe">
         <div class="card" style="width: 18rem;">
           <img src="${currentItem.image}" class="card-img-top" alt="${currentItem.label}">
           <div class="card-body">
@@ -54,24 +55,22 @@ const renderRecipeCard = data => {
         </div>
       </div>
     `;
-    cards.appendChild(card);
+    recipeResult.appendChild(card);
   });
 }
 
 const renderActivityCard = data => {
   // console.log('data called from renderCard!', data);
-  const cards = document.getElementById('random-result');
-  cards.innerHTML = "";
-    card.innerHTML = `
-      <div class="recipe row">
-        <div class="card" style="width: 18rem;">
-          <img src="${currentItem.image}" class="card-img-top" alt="${currentItem.label}">
-          <div class="card-body">
-            <h5 class="card-title">${currentItem.label}</h5>
-          </div>
-        </div>
+  const randomResult = document.getElementById('random-result');
+  randomResult.innerHTML = "";
+  randomResult.innerHTML = `
+    <div class="row">
+      <div class="card" style="width: 18rem;">
+        <h3 class="card-title">Activity:${data.activity}</h3>
+        <div>Activity Type: ${data.type}</div>
       </div>
-    `;
+    </div>
+  `;
 }
 // https://www.boredapi.com/api/activity/
 

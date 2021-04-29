@@ -14,6 +14,11 @@ Full and now looking for something to do use this app to search for a task or so
 # Site URL:  www.foodwarriorsapp.com
 
 ## API:
+### Tools used:
+* HTML | CSS | Bootstrap | API | JS Library 
+
+### api used:
+* [edamam](https://developer.edamam.com/edamam-recipe-api-demo)
 
 - [edamam](https://developer.edamam.com/edamam-recipe-api-demo)
 
