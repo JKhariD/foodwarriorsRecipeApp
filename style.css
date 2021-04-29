@@ -31,7 +31,7 @@
 }
 
 .main-body {
-  padding-top: 300px;
+  padding-top: 122px;
 }
 
 .left-bar {
@@ -67,9 +67,11 @@
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
 }
 
 footer {
@@ -79,3 +81,13 @@ footer {
   text-align: center;
   margin-top: 200px;
 }
+
+#random-result {
+  justify-content: space-around;
+}
+
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} *
