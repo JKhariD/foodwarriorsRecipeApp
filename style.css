@@ -9,6 +9,9 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-image: url('./asset/background-img.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .navs {
