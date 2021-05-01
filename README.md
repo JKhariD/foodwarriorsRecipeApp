@@ -1,7 +1,7 @@
 # Food Warriors App
 
 Are you hungry? Don't know what to cook?
-Use this app to enter the items you have in your kitchen and genrate a new recipe.
+Use this app to enter the items you have in your kitchen and generate a new recipe.
 
 ![chew](https://media.giphy.com/media/XbLeWvIwOcd2g/giphy.gif "Grubhub")
 
