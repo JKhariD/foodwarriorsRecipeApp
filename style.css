@@ -17,7 +17,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
    background-size: cover;
-
   background-size: 100%;
 }
 
@@ -49,17 +48,14 @@ body > .container-fluid {
   z-index: 10;
 } */
 
-.main-body {
-  padding-top: 122px;
-  /* sticky footer part 2/3 https://css-tricks.com/couple-takes-sticky-footer/ */
-  min-height: 100%;
-  /* Equal to height of footer */
-  /* But also accounting for potential margin-bottom of last child */
-  margin-bottom: -50px;
-}
 
 .left-bar {
   border-left: 1px solid #c9c5c5;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .refresh-btn {
@@ -138,4 +134,12 @@ body > .container-fluid {
   .nav-link {
     padding: 0px;
   }
+}
+
+#activity-h3 {
+  font-size: 1.17em;
+}
+
+#activity-card-top {
+  margin-top: 10px;
 }
