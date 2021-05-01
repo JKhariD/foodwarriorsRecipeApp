@@ -1,103 +1,100 @@
-body{
-    background-image: url(/asset/Photos/kitchen.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    
+body {
+  background-image: url(./asset/Background-image-OPA-40-2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
-.title{
-        background-color:whitesmoke;
-        position: fixed;
-        top: 0;
-        left: 0;
-        bottom: -20;
-        width: 100%;
-        z-index: 10;
+.title {
+  background-color:whitesmoke;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: -20;
+  width: 100%;
+  z-index: 10;
 }
-.about{
-    margin-top: 0px;
+.about {
+  margin-top: 0px;
 }
 
 .about-top-bar {
-    background-color: antiquewhite;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-  }
-
-.about-us{
-    padding-right: 0px;
+  background-color: antiquewhite;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
 }
 
-#result{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-
-
-}
-.card-img-top{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    padding-top: 10px;
+.about-us {
+  padding-right: 0px;
 }
 
-.card-text{
-    display: flex;
-    position: relative;
-    bottom: 0;
-
+#result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding-top: 10px;
 }
 
-.home{
-    margin-top: 0px;
-    padding-left: 950px;
+.card-text {
+  display: flex;
+  position: relative;
+  bottom: 0;
 }
 
-.portrait{
-    display: flex;
-    background-color: whitesmoke;
-    border:black 2px solid;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    width: 20rem;
-    height: 28rem;
+.home {
+  margin-top: 0px;
+  padding-left: 950px;
+}
+
+.portrait {
+  display: flex;
+  background-color: whitesmoke;
+  border:black 2px solid;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 20rem;
+  height: 28rem;
 }
 
 .card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 body {
-    /* Margin bottom by footer height */
-    margin-bottom: 60px;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 60px;
-    line-height: 60px; /* Vertically center the text there */
-    background-color: #f5f5f5;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
 }
 
 
@@ -106,7 +103,7 @@ body {
 /* Not required for template or sticky footer method. */
 
 body > .container-fluid {
-    padding: 120px 15px 0;
+  padding: 120px 15px 0;
 }
 
 .footer {
