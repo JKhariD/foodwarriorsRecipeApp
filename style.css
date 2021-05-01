@@ -8,9 +8,9 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
+  /* Margin bottom by footer height */ */
   margin-bottom: 60px;
-  background-image: url('./asset/background-img.jpeg');
+  background-image: url("C:\Users\Teila\desktop\foodwarriorsRecipeApp\asset\Background imag OPA 40 -2.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
