@@ -10,9 +10,18 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  background-image: url('./asset/background-img.jpeg');
-  background-repeat: no-repeat;
+  background-image: url('./asset/Background-image-OPA-40-2.jpg');
+  background-repeat: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+
   background-size: 100%;
+}
+
+#navbarNav {
+  color: red;
 }
 
 .navs {
