@@ -1,6 +1,6 @@
 [
     {
-        "Face": "/asset/photos/teila.jpg",
+        "Face": "./asset/photos/teila.jpg",
         "Name": "Teila",
         "About": "Detail-oriented Legal strategist turned Junior developer with experience, zest for solving complex problems, and growing in my craft.",
         "Linkedin": "https://www.linkedin.com/in/teila-garraway-37121154/"
@@ -14,14 +14,14 @@
 
     },
     {
-        "Face": "/asset/photos/heggy-face.jpg",
+        "Face": "./asset/photos/heggy-face.jpg",
         "Name": "Heggy Castañeda",
         "About": "Creative technologist who enjoys listening to oldies.",
         "Linkedin": "https://www.linkedin.com/in/ted-wetekamp-a6a2281/"
 
     },
     {
-        "Face": "/asset/photos/jared.jpg",
+        "Face": "./asset/photos/jared.jpg",
         "Name": "Jared Davie",
         "About": "Serious coder who likes to build things.",
         "Linkedin": "https://www.linkedin.com/in/jared-davie-099395206/"
