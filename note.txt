@@ -15,6 +15,8 @@
   - navbar: https://getbootstrap.com/docs/4.3/components/navbar/
   - bootstrap cdn: https://getbootstrap.com/docs/4.3/getting-started/introduction/
   - footer: https://mdbootstrap.com/docs/standard/navigation/footer/
+      - sticky footer: https://getbootstrap.com/docs/4.0/examples/sticky-footer/
+      - sticky nav/footer: https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/
 
 ## api:
 ### Edamam: 
