@@ -67,8 +67,8 @@ const renderActivityCard = data => {
   randomResult.innerHTML = "";
   randomResult.innerHTML = `
     <div class="row">
-      <div class="card" style="width: 18rem;">
-        <h3 class="card-title">Activity:${data.activity}</h3>
+      <div class="card" style="width: 20rem;" id="activity-card-top">
+        <h3 class="card-title" id="activity-h3">Activity:${data.activity}</h3>
         <div>Activity Type: ${data.type}</div>
       </div>
     </div>
