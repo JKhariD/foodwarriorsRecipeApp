@@ -1,4 +1,4 @@
-# Food Warriors App
+# [Food Warriors App](https://jkharid.github.io/foodwarriorsRecipeApp/)
 
 Are you hungry? Don't know what to cook?
 Use this app to enter the items you have in your kitchen and generate a new recipe.
