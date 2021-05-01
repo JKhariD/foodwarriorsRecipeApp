@@ -11,22 +11,7 @@ Full and now looking for something to do use this app to search for a task or so
 
 <hr>
 
-# Site URL:  www.foodwarriorsapp.com
-
-## API:
-### Tools used:
-* HTML | CSS | Bootstrap | API | JS Library 
-
-### api used:
-* [edamam](https://developer.edamam.com/edamam-recipe-api-demo)
-
-- [edamam](https://developer.edamam.com/edamam-recipe-api-demo)
-
-- [bored](https://www.boredapi.com/)
-
-## JS library:
-
-- cornify(https://www.cornify.com/extras)
+# Site URL:  https://jkharid.github.io/foodwarriorsRecipeApp/
 
 ## Tools:
 
@@ -42,6 +27,28 @@ Full and now looking for something to do use this app to search for a task or so
 <img style="margin: 30px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="45" />  
 <img style="margin: 30px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="45" />  
 </div> 
+
+## API:
+
+- [edamam](https://developer.edamam.com/edamam-recipe-api-demo)
+
+- [bored](https://www.boredapi.com/)
+
+## Links:
+  - Our app: https://github.com/JKhariD/foodwarriorsRecipeApp
+  - List of Pub api: https://github.com/public-apis/public-apis#food--drink
+  - Project Tracker: https://github.com/JKhariD/foodwarriorsRecipeApp/projects/1
+
+## Bootstrap resource:
+  - responsive page grid: https://getbootstrap.com/docs/4.3/layout/grid/#grid-options
+  - navbar: https://getbootstrap.com/docs/4.3/components/navbar/
+  - bootstrap cdn: https://getbootstrap.com/docs/4.3/getting-started/introduction/
+  - footer: https://mdbootstrap.com/docs/standard/navigation/footer/
+
+## JS library:
+
+- cornify(https://www.cornify.com/extras)
+
 
 ## Developed by:
 
