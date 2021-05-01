@@ -4,7 +4,7 @@ const renderFolks = data => {
     const resultHTML = data.map(item => {
         return `
             <div class="portrait"
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img src="${item.Face}" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">${item.Name}</h5>
