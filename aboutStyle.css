@@ -1,12 +1,12 @@
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  background-image: url(./asset/2.jpg);
+  background-image: url(./asset/6.jpg);
   background-repeat: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-   background-size: cover;
+  background-size: cover;
   background-size: 100%;
 }
 
