@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const findRecipeBtn = document.getElementById('find-recipe-btn');
   let recipeResult = document.getElementById('recipe-result');
   const randomBtn = document.getElementById('random-fun');
+  const randomResult = document.getElementById('random-result');
 
   // runs when user click find recipe btn (btn type submit)
   formRecipe.addEventListener('submit', e => {
@@ -29,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // random activity
   randomBtn.addEventListener('click', () => {
+    randomResult.innerHTML = `<img src="./asset/loading.gif">`;
     axios.get('https://www.boredapi.com/api/activity/')
     .then(resp => {
       renderActivityCard(resp.data);
