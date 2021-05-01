@@ -59,16 +59,23 @@ body{
 }
 
 .portrait{
-display: flex;
-background-color: whitesmoke;
-border:black 2px solid;
-flex-direction: column;
-justify-content: space-around;
-align-items: center;
-margin-top: 100px;
-margin-bottom: 20px;
-margin-left: 100px;
-margin-right: 100px;
-width: 20rem;
-/* height: 20rem; */
+    display: flex;
+    background-color: whitesmoke;
+    border:black 2px solid;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 20rem;
+    height: 28rem;
 }
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
