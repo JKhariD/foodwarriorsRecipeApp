@@ -27,9 +27,9 @@ body{
     z-index: 10;
   }
 
-  .about-us{
-      padding-right: 0px;
-  }
+.about-us{
+    padding-right: 0px;
+}
 
 #result{
     display: flex;
@@ -43,6 +43,7 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    padding-top: 10px;
 }
 
 .card-text{
@@ -69,5 +70,5 @@ margin-bottom: 20px;
 margin-left: 100px;
 margin-right: 100px;
 width: 20rem;
-height: 20rem;
+/* height: 20rem; */
 }
