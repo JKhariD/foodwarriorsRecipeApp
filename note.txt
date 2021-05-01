@@ -23,3 +23,28 @@
 * base Url: https://api.edamam.com/search
 
     * param: q, count (limit to 6)
+
+###########################
+Part 1: Sales Pitch (5 Minutes or Less)
+* Why did you make this site?
+  Help people find things to cook based on what they have in the kitchen.
+* Who is it for?
+  Anyone that needs a meal.
+* Walk through using the website with the publicly accessible URL
+  Ted- Demo our app
+* Show using the API
+  Ted- Demo walk thru
+* Show each HTML page
+  Ted - Walk thru, Home -> About us 
+
+Part 2: Technical Summary (5 Minutes or less). You can show code samples but it is not required.
+* What API(s) did you use?
+  Edamam, Bored
+* What was the hardest part of the project?
+  Drilling down to the actual data I needed. `resp.data.hits.recipe`
+* What was the hardest part of working as a team?
+  Github issue, code up-to-date, team coordination
+* What did you learn?
+  Ted: team coordination
+  Teila: I learn how to bring out other's strength and support where others' weak as a team. CSS Margin, API call, Inspect tool is awesome.
+  Heggy: flex-box, col and using bootstrap to make the page responsive

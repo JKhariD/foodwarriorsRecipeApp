@@ -43,8 +43,8 @@ const renderRecipeCard = data => {
   const recipeResult = document.getElementById('recipe-result');
   recipeResult.innerHTML = "";
   const someArr = data.map(item => {
-    // console.log('item?', item);
-    const currentItem = item.recipe;
+    // console.log('item?', item); resp.data.hits = item
+    const currentItem = item.recipe; // resp.data.hits.recipe
     const card = document.createElement('div');
     card.className = 'recipe-flex-row';
     card.innerHTML = `
