@@ -42,6 +42,13 @@ Full and now looking for something to do use this app to search for a task or so
 
 - [Cornify](https://www.cornify.com/extras)
 
+## Coding Challenge faced:
+
+- api call
+
+<img src="./asset/postman-api-test.png">
+
+<img src="./asset/code-api.png">
 
 ## Developed by:
 

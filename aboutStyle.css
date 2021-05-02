@@ -62,8 +62,10 @@ body {
 
 .portrait {
   display: flex;
-  background-color: whitesmoke;
-  border:black 2px solid;
+  background: radial-gradient(#0c426e, transparent);
+  border: #385fbabf 2px solid;
+  border-radius: 56px;
+  color: #f3f0e6;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -81,6 +83,10 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
+.card-body > a {
+  color: #f3f0e6;
+} 
 
 /* Sticky footer styles
 -------------------------------------------------- */
