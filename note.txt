@@ -19,10 +19,13 @@
       - sticky nav/footer: https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/
 
 ## api:
-### Edamam: 
+### Edamam api: 
 * base Url: https://api.edamam.com/search
-
     * param: q, count (limit to 6)
+### Bored api: www.boredapi.com
+
+## JS lib:
+* cornify doc: https://www.cornify.com/js/cornify.js
 
 ###########################
 Part 1: Sales Pitch (5 Minutes or Less)
