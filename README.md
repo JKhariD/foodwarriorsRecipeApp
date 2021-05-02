@@ -1,4 +1,4 @@
-# Food Warriors App
+# [Food Warriors App](https://jkharid.github.io/foodwarriorsRecipeApp/)
 
 Are you hungry? Don't know what to cook?
 Use this app to enter the items you have in your kitchen and generate a new recipe.
@@ -42,6 +42,13 @@ Full and now looking for something to do use this app to search for a task or so
 
 - [Cornify](https://www.cornify.com/extras)
 
+## Coding Challenge faced:
+
+- api call
+
+<img src="./asset/postman-api-test.png">
+
+<img src="./asset/code-api.png">
 
 ## Developed by:
 

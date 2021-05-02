@@ -24,6 +24,10 @@ body {
   color: red;
 }
 
+.navbar-nav {
+  align-items: center;
+}
+
 .navs {
   flex-direction: row;
   align-items: center;
@@ -142,4 +146,22 @@ body > .container-fluid {
 
 #activity-card-top {
   margin-top: 10px;
+}
+
+/*  https://www.w3schools.com/cssref/pr_pos_z-index.asp */
+.cup_cake_this {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 2147483640;
+}
+
+.cup_cake_this > img {
+  width: 50px;
+  height: 50px;
+  display: block;
+/*   https://www.w3schools.com/cssref/pr_class_cursor.asp */
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
 }

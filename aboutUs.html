@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
-  
     <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Food Warrior Recipe</title>
+      <link rel="shortcut icon" href="./asset/warrior-3-fav.jpeg" type="image/x-icon">
       <link
         rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -13,36 +17,35 @@
       <link rel="stylesheet" href="aboutStyle.css" />
     </head>
     <body>
-
-      <div class="container-fluid">
         <!--  Fixed navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
-          <a class="navbar-brand" href="./index.html">
-            <!-- logo here -->
-            <img src="./asset/warrior-3.jpg" width="30" height="30" class="d-inline-block align-top" alt="Foodies">
-            Food Warriors
-          </a>
-          <!-- hamburger icon -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- nav items -->
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="./aboutUs.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.cornify.com" onclick="cornify_add();return false;" title="Cornify">
-                  <img src="https://www.cornify.com/assets/cornify-button.png" width="82" height="25" border="0" alt="Cornify" />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+        <a class="navbar-brand" href="./index.html">
+          <!-- logo here -->
+          <img src="./asset/warrior-3.jpg" width="30" height="30" class="d-inline-block align-top" alt="Foodies">
+          Food Warriors
+        </a>
+        <!-- hamburger icon -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- nav items -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./aboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.cornify.com" onclick="cornify_add();return false;" title="Cornify">
+                <img src="https://www.cornify.com/assets/cornify-button.png" width="82" height="25" border="0" alt="Cornify" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container-fluid">
         <div id="result">
           <!-- Our faces go here! -->
         </div>
@@ -69,7 +72,32 @@
             </ul>
         </div>
       </footer>
-          <!-- axios -->
+      <!-- clear unicorns button -->
+      <div class="cup_cake_this" onclick="cornify_click_cupcake_button();">
+        <img src="https://www.cornify.com/assets/cornify-cupcake-button.png" alt="Cupcake button">
+      </div>
+      <!-- bootstrap JS: jQuery must come first, then Popper.js, and then our JavaScript plugins -->
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"
+      ></script>
+      <!-- cornify -->
+      <script
+        type="text/javascript"
+        src="https://www.cornify.com/js/cornify.js"
+      ></script>
+      <!-- axios -->
       <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
       <script src="./aboutUs.js"></script>
     </body>
