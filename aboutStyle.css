@@ -166,3 +166,10 @@ body > .container-fluid {
 .navbar-nav {
   align-items: center;
 }
+
+/* on screen that are 550px or less, set font size smaller */
+@media only screen and (max-width: 550px) {
+  .card-text {
+    font-size: .8rem;
+  }
+}
