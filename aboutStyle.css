@@ -19,6 +19,7 @@ body {
   width: 100%;
   z-index: 10;
 }
+
 .about {
   margin-top: 0px;
 }
@@ -42,6 +43,13 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
+
+.card {
+  background-color: transparent;
+  border: 0;
+  align-items: center;
+}
+
 .card-img-top {
   width: 200px;
   height: 200px;
@@ -165,4 +173,11 @@ body > .container-fluid {
 
 .navbar-nav {
   align-items: center;
+}
+
+/* on screen that are 550px or less, set font size smaller */
+@media only screen and (max-width: 550px) {
+  .card-text {
+    font-size: .8rem;
+  }
 }

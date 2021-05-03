@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // search url https://api.edamam.com/search?app_key=9a5fe34698abbbcf01e1f495944a2a68&app_id=a5e40d79&count=6&q=chicken
     // get rid of spacing user inputs so my fetch function doesn't break
     var urlEncodedSearchStr = encodeURIComponent(searchRecipeStr);
-    console.log(searchRecipeStr);
+    // console.log(searchRecipeStr);
     axios
     .get(`https://api.edamam.com/search?app_key=9a5fe34698abbbcf01e1f495944a2a68&app_id=a5e40d79&count=6&q=${urlEncodedSearchStr}`)
     .then(resp => {
