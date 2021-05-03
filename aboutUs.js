@@ -22,7 +22,7 @@ const renderFolks = data => {
 const fetchData = url => {
     axios.get(url)
     .then(resp => {
-        console.log("axios result data", resp.data);
+        // console.log("axios result data", resp.data);
         renderFolks(resp.data);
     })
     .catch(err => console.error(err));
