@@ -1,5 +1,11 @@
 # Handy post for things:
 
+
+## Bug:
+  1. When redering <img src="https://www.edamam.com/web-img/f0a/f0a2c909029e2ac3883e4c1da1498ec7" class="card-img-top" alt="How To Make Roasted Broccoli">
+
+
+## todo:
 - [x][Heggy] 1 JS lib feature: cornify(https://www.cornify.com/extras) 
 - [ ] [ Jared ] - Trello board (https://trello.com/b/ultdy0tY/template-scrum-with-trello) OR GitHub board (https://docs.github.com/en/github/managing-your-work-on-github/about-project-boards)
 - [ ] [ Ted ] Logo for our app
