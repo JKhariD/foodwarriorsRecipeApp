@@ -39,9 +39,26 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 })
 
+const fallBackImg = imgURL => {
+  // imageURL.onload = () => {
+  //   container.appendChild(image)
+  // }
+  
+  // imageURL.onerror = () => {
+  //   container.appendChild(placeholder)
+  // }
+
+  if (imageURL.onload) {
+    return imgURL
+  } else {
+    return './asset/no_image.png'
+  }
+}
+
 const renderRecipeCard = data => {
   const recipeResult = document.getElementById('recipe-result');
   recipeResult.innerHTML = "";
+
   const someArr = data.map(item => {
     // console.log('item?', item); resp.data.hits = item
     const currentItem = item.recipe; // resp.data.hits.recipe
@@ -50,7 +67,7 @@ const renderRecipeCard = data => {
     card.innerHTML = `
       <div class="recipe">
         <div class="card" style="width: 18rem;">
-          <img src="${currentItem.image ? currentItem.image: "./asset/no_image.png"}" class="card-img-top" alt="${currentItem.label}">
+          <img src="${fallBackImg(currentItem.image)}" class="card-img-top" alt="${currentItem.label}">
           <div class="card-body">
             <h5 class="card-title"><a href="${currentItem.url}">${currentItem.label}</a></h5>
           </div>

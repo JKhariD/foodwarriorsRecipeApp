@@ -2,12 +2,11 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 120px;
   background-image: url(./asset/6.jpg);
-  background-repeat: no-repeat center center fixed;
+  background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-size: 100%;
 }
 
 .title {

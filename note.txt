@@ -2,8 +2,12 @@
 
 
 ## Bug:
-  1. When redering <img src="https://www.edamam.com/web-img/f0a/f0a2c909029e2ac3883e4c1da1498ec7" class="card-img-top" alt="How To Make Roasted Broccoli">
+  1. When rendering <img src="https://www.edamam.com/web-img/f0a/f0a2c909029e2ac3883e4c1da1498ec7" class="card-img-top" alt="How To Make Roasted Broccoli">
 
+line script.js
+```js 
+  <img src="${currentItem.image ? currentItem.image: './asset/no_image.png'}" class="card-img-top" alt="${currentItem.label}">
+```
 
 ## todo:
 - [x][Heggy] 1 JS lib feature: cornify(https://www.cornify.com/extras) 
